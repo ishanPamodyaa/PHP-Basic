@@ -5,17 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link href="styleSheet.css" rel="stylesheet">
 </head>
 
 <body>
 
-    <form action="process.php" method="get">
-        <label for="fname">Full name :</label>
-        <input type="text" name="fname">
-        
-        
-        <input type="submit">
-    </form>
+    <div class="container">
+
+        <div style="display: block;">
+            <h1 class=" heading">Form With a check box Group</h1>
+            </br></br>
+            <form action="processor.php" method="get">
+
+
+                <input type="checkbox" name="subject[]" value="combinedMaths">Combined Maths
+                <input type="checkbox" name="subject[]" value="biology">Biology
+                <input type="checkbox" name="subject[]" value="chemistry">Chemistry
+                <input type="checkbox" name="subject[]" value="physics">Physics
+                </br></br>
+
+                <input type="submit">
+            </form>
+        </div>
+
+    </div>
+
 
 </body>
 
