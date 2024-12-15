@@ -1,5 +1,6 @@
 
-<div style="display: flex; justify-content: center; align-items: center;">
+
+<div style="display: flex; justify-content: center; align-items: center;" >
     <div style="display: block;">
     
     <?php
