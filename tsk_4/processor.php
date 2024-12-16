@@ -6,8 +6,12 @@
     </br></br>
     <?php
         $center = $_GET['centers'];
-        echo "Selected Exam Center is <b>$center</b>";
+        echo "Selected Exam Center is <b>$center</b> </br>";
     ?>
+
+    <?= "Selected Exam Center is <b>$center</b>";?><!-- short method  -->
+
+
 </div>
 
 </div>
