@@ -16,6 +16,8 @@
     <th>Name</th>
     <th>NIC</th>
     <th>City</th>
+    <th>Edit</th>
+    <th>Delete</th>
 </tr>
 </thead>
 <tbody>
@@ -33,6 +35,8 @@
         echo "<td>" .$row[1]."</td>";
         echo "<td>" .$row[2]."</td>";
         echo "<td>" .$row[3]."</td>";
+        echo "<td ><a href='editForm.php?id=".$row['idstudent']."'>Edit</a></td>";
+        echo "<td ><a href='delete.php?id=".$row['idstudent']."'>Delete</a></td>";
 
     }
     ?>
