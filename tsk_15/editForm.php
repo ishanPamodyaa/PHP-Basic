@@ -1,6 +1,6 @@
 <?php
 if(! isset($_GET['id'])){
-header("location:form.php");
+// header("location:form.php");
 }else{
     require_once('db.php');
 
@@ -12,7 +12,7 @@ header("location:form.php");
     // echo $raw['name'] .",". $raw['nic'] .",". $raw['city'];
 
     echo 
-    '<form action="insert.php" method="POST">
+    '<form action="update.php" method="POST">
     <lable>Name :</lable>
         <input type="hidden" name="stuId" value="'.$raw['idstudent'].'">
         </br></br>    
