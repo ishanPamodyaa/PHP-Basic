@@ -8,9 +8,9 @@ if(isset($_POST['stuId']) && isset($_POST['stuName']) && isset($_POST['stuNic'])
     $rs =  mysqli_query($con , $sql);
     // echo $sql;
     mysqli_close($con);
-    header("location : form.php");
+    header("location: form.php");
     }else{
-    header("location : form.php");
+    header("location: form.php");
 }
 
 ?>
