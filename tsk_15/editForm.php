@@ -9,7 +9,6 @@ if(! isset($_GET['id'])){
     
     $raw = mysqli_fetch_assoc($rs);
 
-    // echo $raw['name'] .",". $raw['nic'] .",". $raw['city'];
 
     echo 
     '<form action="update.php" method="POST">

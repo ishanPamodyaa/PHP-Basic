@@ -33,7 +33,7 @@
     while($row = mysqli_fetch_array($rs)){
 
         echo "<tr>";
-        echo "<td>" .$row[0]."</td>";
+        echo "<td>" .$row["idstudent"]."</td>";
         echo "<td>" .$row[1]."</td>";
         echo "<td>" .$row[2]."</td>";
         echo "<td>" .$row[3]."</td>";
